@@ -1,0 +1,104 @@
+header {
+    width: 1000px;
+    margin: auto;
+    height: 70px;
+    position: relative;
+    overflow: auto;
+}
+#logo {
+    width: 260px;
+    height: 60px;
+    margin: 10px 0 0 0;
+    position: absolute;
+    background: url("../image/logo.jpg") no-repeat;
+    background-size: 100%;
+    display: block;
+    /*float: left;*/
+}
+#myTab{
+    float: right;
+    margin-top:30px;
+    /*margin-right: 375px;*/
+    font-size: large;
+}
+.hr{
+    margin:10px 0 20px 0;
+}
+.firstPart{
+    height: 220px;
+    background: url("../image/firstPageBG.jpg") top center;
+    overflow: hidden;
+}
+.photo{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.photo a{
+    float: left;
+    margin-top: 37px;
+    border-radius: 100%;
+    border: 5px #fff solid;
+    background: url(../image/photo.jpg);
+    height: 140px;
+    width: 140px;
+    margin-left: 71px;
+    overflow: hidden;
+}
+.photo a  span{
+    display: none;
+
+}
+.photo a:hover span{
+    display: block;
+    height: 60px;
+    width: 140px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    padding-top: 10px; ;
+    background: #000;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.welcome{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    background: url("../image/welcomeBG.jpg") no-repeat;
+    background-size: 100%;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    display: none;
+}
+.welcomePage{
+    overflow: auto;
+    margin:5% 20%;
+    opacity: 1;
+    background-color: #ffffff;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    border-radius: 30%;
+}
+.welcomeCotent{
+    box-sizing: border-box;
+    margin-left: 26%;
+    margin-right: 30%;
+    margin-top: 3%;
+    font-size: x-large;
+    border: 2px solid;
+    border-radius: 10%;
+    padding: 5%;
+}
+.welcomeText1{
+    text-align: left;
+    color: darkviolet;
+}
+.welcomeText{
+    text-align: right;
+    color: darkviolet;
+}
