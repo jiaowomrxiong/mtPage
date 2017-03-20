@@ -3,5 +3,6 @@
  */
 function checkIn(){
     console.log("I am in layout!")
+    $("#mainPage").show();
     $("#welcome").hide();
 }

@@ -1,9 +1,12 @@
 header {
     width: 1000px;
     margin: auto;
-    height: 75px;
+    height: 80px;
     position: relative;
     overflow: auto;
+}
+#mainPage{
+    display: none;
 }
 #logo {
     width: 260px;
@@ -22,8 +25,11 @@ header {
     font-size: large;
 }
 .hr{
-    margin:10px 0 20px 0;
+    margin:10px 0 10px 0;
+    border-top: 3px solid #eee;
 }
+
+/*first page*/
 .firstPart{
     height: 220px;
     background: url("../image/firstPageBG.jpg") top center;
@@ -61,7 +67,119 @@ header {
     opacity: 0.6;
     color: #fff;
 }
+.article-header{
+    margin-top: 21px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.article-title{
+    margin-top: 21px;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.article-footer{
+    font-size: small;
+}
+.article-footer p{
+    margin: 0 0;
+}
+.Atype{
+    background: url("../image/Atype.png") no-repeat left center;
+    float: left;
+}
+.Atime{
+    background: url("../image/Atime.png") no-repeat left center;
+    float: left;
+}
+.Acommit{
+    background: url("../image/Acommit.png") no-repeat left center;
+    float: left;
+}
+.Aviewnum{
+    background: url("../image/Aviewnum.png") no-repeat left center;
+    float: left;
+}
+.right-panel{
+    height: 100%;
+    border-left: 3px solid #eee;
+}
+.gzw-title{
+    margin-left: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+.gzw-title p{
+    margin-bottom: 0;
+    font-size:larger;
+    font-weight: bolder;
+}
+.gzw-list{
+    height: 80px;
+    width:350px;
+    overflow: auto;
+}
+.gzw-list .wx{
+    float: left;
+    background: url("../image/icon_WX.png") no-repeat scroll 0 0;
+}
+.gzw-list .qq{
+    float: left;
+    background: url("../image/icon_QQ.png") no-repeat scroll 0 0;
+}
+.gzw-list .yx{
+    float: left;
+    background: url("../image/ico_07_1.png") no-repeat scroll 0 0;
+}
+.gzw-list .git{
+    float: left;
+    background: url("../image/icon_git.png") no-repeat scroll 0 0;
+}
+.wx:hover{
+    background: url("../image/icon_WX_1.png") no-repeat scroll 0 0;
+}
+.qq:hover{
+    background: url("../image/icon_QQ_1.png") no-repeat scroll 0 0;
+}
+.yx:hover{
+    background: url("../image/ico_07.png") no-repeat scroll 0 0;
+}
+.git:hover{
+    background: url("../image/icon_git_1.png") no-repeat scroll 0 0;
+}
+.gzw-list div{
+    box-sizing: content-box;
+    width: 52px;
+    text-align: center;
+    padding-top: 60px;
+}
+.gzw-list div a{
+    text-align: center;
+    padding-top: 60px;
+}
+.m-l{
+    margin-left: 15px;
+}
+.m-r{
+    margin-right: 15px;
+}
 
+/*about me page */
+.aboutmeBG{
+    background: url("../image/aboutmeBG.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+}
+.left-panel2{
+    border-left: 3px solid #eee;
+}
+.aboutme-content{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/*welcome page CSS*/
 .welcome{
     position: absolute;
     left: 0px;
@@ -72,7 +190,7 @@ header {
     height: 100%;
     width: 100%;
     overflow: auto;
-    display: none;
+    /*display: none;*/
 }
 .welcomePage{
     overflow: auto;
