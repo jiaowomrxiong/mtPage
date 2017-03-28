@@ -178,13 +178,35 @@ header {
 }
 
 
+/*message page CSS*/
+#messagePage{
+    height: auto;
+    min-height: 680px;
+    background: url("../image/timg (3).jpg") no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.message{
+    border-left: 3px solid #eee;
+}
+.message-area > p{
+    padding-top: 13px;
+}
+.message-time{
+    font-size: small;
+    margin:10px 0;
+}
+.message-form{
+    margin: 20px 0  ;
+}
+
 
 /*welcome page CSS*/
 .welcome{
     position: absolute;
     left: 0px;
     top:0px;
-    background: url("../image/welcomeBG.jpg") no-repeat;
+    background: url("../image/welcomeBG2.jpg") no-repeat;
     background-size: 100%;
     opacity: 1;
     height: 100%;
@@ -202,21 +224,25 @@ header {
     text-align: center;
     border-radius: 30%;
 }
+.welcome-title{
+    height: 150px;
+    background: url("../image/timg.gif") no-repeat center;
+}
 .welcomeCotent{
     box-sizing: border-box;
     margin-left: 26%;
     margin-right: 30%;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     font-size: x-large;
-    border: 2px solid;
-    border-radius: 10%;
-    padding: 5%;
+    /*border: 2px solid;*/
+    /*border-radius: 10%;*/
+    /*padding: 5%;*/
 }
 .welcomeText1{
     text-align: left;
-    color: darkviolet;
+    color: #000;
 }
 .welcomeText{
     text-align: right;
-    color: darkviolet;
+    color: #000;
 }
